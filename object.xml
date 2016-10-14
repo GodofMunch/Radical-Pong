@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game GSCVersion="1.25.5977" PGFVersion="0.25" title="My Great Project">
+<game GSCVersion="1.25.5977" PGFVersion="0.25" title="Radical-Pong">
   <tags />
   <resolutionIndependence>0</resolutionIndependence>
   <instructions>Add game instructions here.</instructions>
   <resolution>3</resolution>
   <longDescription>A simple game.</longDescription>
   <prototypes>
-    <actor id="id369295" />
-    <actor id="id722814" />
-    <actor id="id330605" />
+    <actor id="id882866" />
+    <actor id="id174533" />
+    <actor id="id948968" />
+    <actor id="id987056" />
+    <actor id="id171575" />
+    <actor id="id157993" />
+    <actor id="id141488" />
+    <actor id="id149736" />
   </prototypes>
   <plugins />
   <scenes>
-    <scene id="id600197" />
+    <scene id="id790529" />
   </scenes>
   <attributes>
     <text id="name">default name</text>
@@ -173,6 +178,7 @@
       <integer id="value">0</integer>
       <text id="name" />
     </adreward>
-    <table id="id837730" name="PurchaseTable">PurchaseTable</table>
+    <table id="id669059" name="PurchaseTable">PurchaseTable</table>
+    <boolean id="id187939" name="Start Game">false</boolean>
   </attributes>
 </game>
