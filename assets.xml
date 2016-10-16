@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <assets PGFVersion="0.25" GSCVersion="1.25.5977">
   <sounds />
-  <images />
+  <images>
+    <image name="windows-media-player-icon-16054">
+      <file name="windows-media-player-icon-16054.png" size="31143" />
+    </image>
+    <image name="totallyawesome80s">
+      <file name="totallyawesome80s.png" size="408928" />
+    </image>
+    <image name="Michael-Jackson-PNG-Picture">
+      <file name="Michael-Jackson-PNG-Picture.png" size="105074" />
+    </image>
+    <image name="Phil-Collins-Render">
+      <file name="Phil-Collins-Render.png" size="144598" />
+    </image>
+  </images>
   <fonts />
   <behaviors />
 </assets>

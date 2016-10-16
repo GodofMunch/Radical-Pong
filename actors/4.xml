@@ -58,6 +58,14 @@
             </text>
           </attributes>
         </behavior>
+        <behavior id="id662112" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute" />
+            <text id="RHS" />
+          </attributes>
+        </behavior>
       </behaviors>
     </behavior>
   </behaviors>

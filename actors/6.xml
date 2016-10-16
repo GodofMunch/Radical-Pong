@@ -8,14 +8,14 @@
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">120</real>
-      <real id="height">120</real>
+      <real id="width">256</real>
+      <real id="height">256</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
-      <real id="red">1</real>
+      <real id="red">0</real>
       <real id="green">1</real>
-      <real id="blue">1</real>
+      <real id="blue">0</real>
       <real id="alpha">1</real>
     </color>
     <image id="image" />
@@ -23,46 +23,6 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id112131" class="RuleBehavior" enabled="true">
-      <attributes>
-        <text id="name">Rule</text>
-        <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">0</real>
-      </attributes>
-      <conditions>
-        <condition id="id679784" eventType="key" pluginPredicateTypeIndex="0" class="Key">
-          <attributes>
-            <text id="name">default name</text>
-            <index id="conditionType">0</index>
-          </attributes>
-          <predicate type="key">
-            <attributes>
-              <text id="mode">down</text>
-              <text id="keyString">space</text>
-            </attributes>
-          </predicate>
-        </condition>
-      </conditions>
-      <behaviors>
-        <behavior id="id814492" class="ChangeAttributeAction" enabled="true">
-          <attributes>
-            <text id="name">Change Attribute</text>
-            <text id="bundleName">ChangeAttribute.behavior</text>
-            <text id="targetAttribute">game.attributes.id187939</text>
-            <text id="RHS">false</text>
-          </attributes>
-        </behavior>
-        <behavior id="id167054" class="ChangeVelocityAction" enabled="true">
-          <attributes>
-            <text id="name">Change Velocity</text>
-            <text id="bundleName">ChangeVelocity.behavior</text>
-            <angle id="direction">165</angle>
-            <index id="space">1</index>
-            <real id="speed">300</real>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
     <behavior id="id936280" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Endzone1 destroy</text>
@@ -123,6 +83,61 @@
         </behavior>
       </behaviors>
     </behavior>
+    <behavior id="id388365" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id711168" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id236528</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="boolean">
+            <attributes>
+              <index id="RHS">1</index>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id597967" class="ChangeVelocityAction" enabled="true">
+          <attributes>
+            <text id="name">Change Velocity</text>
+            <text id="bundleName">ChangeVelocity.behavior</text>
+            <angle id="direction">
+              <expression>
+                <string xml:space="preserve">random(-45, 45)</string>
+              </expression>
+            </angle>
+            <index id="space">0</index>
+            <real id="speed">300</real>
+          </attributes>
+        </behavior>
+      </behaviors>
+      <elseBehaviors>
+        <behavior id="id104367" class="ChangeVelocityAction" enabled="true">
+          <attributes>
+            <text id="name">Change Velocity</text>
+            <text id="bundleName">ChangeVelocity.behavior</text>
+            <angle id="direction">
+              <expression>
+                <string xml:space="preserve">random(</string>
+                <string xml:space="preserve">135</string>
+                <string xml:space="preserve">,</string>
+                <string xml:space="preserve">225</string>
+                <string xml:space="preserve"> )</string>
+              </expression>
+            </angle>
+            <index id="space">0</index>
+            <real id="speed">300</real>
+          </attributes>
+        </behavior>
+      </elseBehaviors>
+    </behavior>
   </behaviors>
   <aspects>
     <graphics>
@@ -135,6 +150,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth" name="tileWidth">256</integer>
+        <integer id="tileHeight" name="tileHeight">256</integer>
       </attributes>
     </graphics>
     <motion>
@@ -158,9 +175,9 @@
         <real id="density">1</real>
         <real id="friction">3</real>
         <real id="restitution">1</real>
-        <boolean id="fixedRotation">false</boolean>
+        <boolean id="fixedRotation">true</boolean>
         <boolean id="movable">true</boolean>
-        <enumeration id="collisionShape">0</enumeration>
+        <enumeration id="collisionShape">1</enumeration>
         <real id="drag">0</real>
         <real id="angularDrag">0</real>
         <boolean id="canSleep">true</boolean>

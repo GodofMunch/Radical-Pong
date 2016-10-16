@@ -14,9 +14,12 @@
     <actor id="id157993" />
     <actor id="id141488" />
     <actor id="id149736" />
+    <actor id="id788026" />
+    <actor id="id383729" />
   </prototypes>
   <plugins />
   <scenes>
+    <scene id="id516061" />
     <scene id="id790529" />
   </scenes>
   <attributes>
@@ -182,5 +185,6 @@
     <boolean id="id187939" name="Start Game">false</boolean>
     <integer id="id319756" name="Computer Score">0</integer>
     <integer id="id184328" name="Player Score">0</integer>
+    <boolean id="id236528" name="Player1serve">false</boolean>
   </attributes>
 </game>
