@@ -180,5 +180,7 @@
     </adreward>
     <table id="id669059" name="PurchaseTable">PurchaseTable</table>
     <boolean id="id187939" name="Start Game">false</boolean>
+    <integer id="id319756" name="Computer Score">0</integer>
+    <integer id="id184328" name="Player Score">0</integer>
   </attributes>
 </game>

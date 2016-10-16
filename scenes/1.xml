@@ -16,9 +16,14 @@
             <angle id="rotation">0</angle>
           </attributes>
           <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
             <physics>
               <attributes>
                 <boolean id="fixedRotation">true</boolean>
+                <boolean id="canSleep">true</boolean>
+                <boolean id="betterColisions">false</boolean>
               </attributes>
             </physics>
           </aspects>
