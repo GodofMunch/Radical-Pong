@@ -6,12 +6,12 @@
         <actor id="id897907" prototype="id383729">
           <attributes>
             <point id="position">
-              <real id="x">523</real>
-              <real id="y">425</real>
+              <real id="x">501</real>
+              <real id="y">385</real>
             </point>
             <size id="size">
-              <real id="width">1050</real>
-              <real id="height">829</real>
+              <real id="width">1002</real>
+              <real id="height">807</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>

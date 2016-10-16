@@ -46,7 +46,7 @@
           <predicate type="key">
             <attributes>
               <text id="mode">down</text>
-              <text id="keyString">up</text>
+              <text id="keyString">w</text>
             </attributes>
           </predicate>
         </condition>
@@ -79,7 +79,7 @@
           <predicate type="key">
             <attributes>
               <text id="mode">down</text>
-              <text id="keyString">down</text>
+              <text id="keyString">s</text>
             </attributes>
           </predicate>
         </condition>
@@ -154,6 +154,42 @@
         </behavior>
       </behaviors>
     </behavior>
+    <behavior id="id258780" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id767446" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="key">
+            <attributes>
+              <text id="mode">down</text>
+              <text id="keyString">space</text>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id451441" class="SpawnAction" enabled="true">
+          <attributes>
+            <text id="name">Spawn Actor</text>
+            <text id="bundleName">Spawn.behavior</text>
+            <text id="prototypeKey">id157993</text>
+            <angle id="direction">0</angle>
+            <index id="directionSpace">0</index>
+            <real id="x">20</real>
+            <real id="y">0</real>
+            <index id="positionSpace">0</index>
+            <index id="layerOrder">0</index>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
   </behaviors>
   <aspects>
     <graphics>
@@ -193,7 +229,7 @@
         <real id="restitution">0</real>
         <boolean id="fixedRotation">false</boolean>
         <boolean id="movable">true</boolean>
-        <enumeration id="collisionShape">0</enumeration>
+        <enumeration id="collisionShape">1</enumeration>
         <real id="drag">0</real>
         <real id="angularDrag">0</real>
         <boolean id="canSleep">true</boolean>
