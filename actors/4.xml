@@ -70,7 +70,7 @@
           <attributes>
             <text id="name">Play Sound</text>
             <text id="bundleName">PlaySound.behavior</text>
-            <sound id="soundName">Thekidisnot</sound>
+            <sound id="soundName">EasyLover</sound>
             <boolean id="loop">false</boolean>
             <boolean id="runToCompletion">true</boolean>
             <boolean id="positional">false</boolean>

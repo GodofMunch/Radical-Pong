@@ -4,11 +4,26 @@
     <music name="MichaelJackson-BeatIt(8-Bit)">
       <file name="Michael Jackson - Beat It (8-Bit).mp3" size="4079019" />
     </music>
+    <music name="TakeOnMe(8BitRemixCoverVersion)[TributetoA-ha]-8BitUniverse">
+      <file name="Take On Me (8 Bit Remix Cover Version) [Tribute to A-ha] - 8 Bit Universe.mp3" size="3559496" />
+    </music>
+    <music name="WelcometotheJungle(8BitRemixCoverVersion)[TributetoGunsN'Roses]-8BitUniverse">
+      <file name="Welcome to the Jungle (8 Bit Remix Cover Version) [Tribute to Guns N' Roses] - 8 Bit Universe.mp3" size="4308897" />
+    </music>
     <sound name="Wooooh">
       <file name="Wooooh.ogg" size="14959" />
     </sound>
     <sound name="Thekidisnot">
       <file name="Thekidisnot.ogg" size="49212" />
+    </sound>
+    <sound name="M">
+      <file name="M.ogg" size="629624" />
+    </sound>
+    <sound name="P">
+      <file name="P.ogg" size="410999" />
+    </sound>
+    <sound name="EasyLover">
+      <file name="EasyLover.ogg" size="29964" />
     </sound>
   </sounds>
   <images>

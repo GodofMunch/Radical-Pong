@@ -114,7 +114,7 @@
               </expression>
             </angle>
             <index id="space">0</index>
-            <real id="speed">300</real>
+            <real id="speed">400</real>
           </attributes>
         </behavior>
       </behaviors>
@@ -137,6 +137,52 @@
           </attributes>
         </behavior>
       </elseBehaviors>
+    </behavior>
+    <behavior id="id688387" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id225479" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="collision">
+            <attributes>
+              <text id="prototypeKey">id174533</text>
+              <text id="actorTag" />
+              <real id="mode">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id131647" class="ChangeVelocityAction" enabled="true">
+          <attributes>
+            <text id="name">Change Velocity</text>
+            <text id="bundleName">ChangeVelocity.behavior</text>
+            <angle id="direction">
+              <expression>
+                <string xml:space="preserve">random</string>
+                <string xml:space="preserve">255</string>
+                <string xml:space="preserve">, </string>
+                <string xml:space="preserve">295</string>
+                <string xml:space="preserve">)</string>
+              </expression>
+            </angle>
+            <index id="space">0</index>
+            <real id="speed">
+              <expression>
+                <reference keypath="self.aspects.motion.attributes.maxSpeed" />
+                <string xml:space="preserve">+10</string>
+              </expression>
+            </real>
+          </attributes>
+        </behavior>
+      </behaviors>
     </behavior>
   </behaviors>
   <aspects>
@@ -173,7 +219,7 @@
     <physics>
       <attributes>
         <real id="density">1</real>
-        <real id="friction">3</real>
+        <real id="friction">0</real>
         <real id="restitution">1</real>
         <boolean id="fixedRotation">true</boolean>
         <boolean id="movable">true</boolean>

@@ -6,8 +6,8 @@
         <actor id="id900434" prototype="id882866">
           <attributes>
             <point id="position">
-              <real id="x">500</real>
-              <real id="y">353</real>
+              <real id="x">519</real>
+              <real id="y">329</real>
             </point>
             <size id="size">
               <real id="width">400</real>
@@ -38,7 +38,7 @@
       <real id="y">0</real>
     </point>
     <color id="color">
-      <real id="red">0</real>
+      <real id="red">1</real>
       <real id="green">0</real>
       <real id="blue">0</real>
       <real id="alpha">1</real>
