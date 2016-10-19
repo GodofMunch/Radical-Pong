@@ -114,7 +114,7 @@
               </expression>
             </angle>
             <index id="space">0</index>
-            <real id="speed">400</real>
+            <real id="speed">300</real>
           </attributes>
         </behavior>
       </behaviors>
@@ -173,11 +173,11 @@
                 <string xml:space="preserve">)</string>
               </expression>
             </angle>
-            <index id="space">0</index>
+            <index id="space">1</index>
             <real id="speed">
               <expression>
-                <reference keypath="self.aspects.motion.attributes.maxSpeed" />
-                <string xml:space="preserve">+10</string>
+                <reference keypath="self.aspects.motion.attributes.angularVelocity" />
+                <string xml:space="preserve">+50</string>
               </expression>
             </real>
           </attributes>

@@ -67,14 +67,8 @@
             <boolean id="runToCompletion">true</boolean>
             <boolean id="positional">false</boolean>
             <boolean id="dopplerShift">false</boolean>
-            <real id="volume">15</real>
+            <real id="volume">40</real>
             <real id="pitch">1</real>
-          </attributes>
-        </behavior>
-        <behavior id="id970856" class="StopMusicAction" enabled="false">
-          <attributes>
-            <text id="name">Stop Music</text>
-            <text id="bundleName">StopMusic.behavior</text>
           </attributes>
         </behavior>
       </behaviors>

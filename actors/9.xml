@@ -30,13 +30,16 @@
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id742849" eventType="mouse button" pluginPredicateTypeIndex="0" class="MouseButton">
+        <condition id="id200703" eventType="key" pluginPredicateTypeIndex="0" class="Key">
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
           </attributes>
-          <predicate type="mouse" mouseState="down">
-            <attributes />
+          <predicate type="key">
+            <attributes>
+              <text id="mode">down</text>
+              <text id="keyString">space</text>
+            </attributes>
           </predicate>
         </condition>
       </conditions>

@@ -10,6 +10,9 @@
     <music name="WelcometotheJungle(8BitRemixCoverVersion)[TributetoGunsN'Roses]-8BitUniverse">
       <file name="Welcome to the Jungle (8 Bit Remix Cover Version) [Tribute to Guns N' Roses] - 8 Bit Universe.mp3" size="4308897" />
     </music>
+    <music name="InTheAirTonight(8BitRemixCoverVersion)[TributetoPhilCollins]-8BitUniverse">
+      <file name="In The Air Tonight (8 Bit Remix Cover Version) [Tribute to Phil Collins] - 8 Bit Universe.mp3" size="4917863" />
+    </music>
     <sound name="Wooooh">
       <file name="Wooooh.ogg" size="14959" />
     </sound>
@@ -25,6 +28,12 @@
     <sound name="EasyLover">
       <file name="EasyLover.ogg" size="29964" />
     </sound>
+    <sound name="MichaelJackson-BeatIt(8-Bit)win">
+      <file name="MichaelJackson-BeatIt(8-Bit)win.ogg" size="3387958" />
+    </sound>
+    <sound name="intheairwin">
+      <file name="intheairwin.ogg" size="1985628" />
+    </sound>
   </sounds>
   <images>
     <image name="windows-media-player-icon-16054">
@@ -38,6 +47,9 @@
     </image>
     <image name="Phil-Collins-Render">
       <file name="Phil-Collins-Render.png" size="144598" />
+    </image>
+    <image name="slimerlifesizereplica">
+      <file name="slimerlifesizereplica.png" size="392708" />
     </image>
   </images>
   <fonts />

@@ -1,17 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <scene PGFVersion="0.25" GSCVersion="1.25.5977" id="id416105">
   <layers>
-    <layer id="id147474">
+    <layer id="id366204">
       <actors>
-        <actor id="id900434" prototype="id882866">
+        <actor id="id164763" prototype="id383729">
           <attributes>
             <point id="position">
-              <real id="x">519</real>
-              <real id="y">329</real>
+              <real id="x">514</real>
+              <real id="y">394</real>
+            </point>
+            <size id="size">
+              <real id="width">1025</real>
+              <real id="height">797</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Layer 1</text>
+        <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+    <layer id="id147474">
+      <actors>
+        <actor id="id716531" prototype="id427809">
+          <attributes>
+            <point id="position">
+              <real id="x">505</real>
+              <real id="y">385</real>
             </point>
             <size id="size">
               <real id="width">400</real>
               <real id="height">400</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id173786" prototype="id300210">
+          <attributes>
+            <point id="position">
+              <real id="x">518</real>
+              <real id="y">99</real>
+            </point>
+            <size id="size">
+              <real id="width">978</real>
+              <real id="height">120</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
@@ -25,7 +61,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Win Lose</text>
+    <text id="name">Player1 Win</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">1024</real>
